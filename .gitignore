@@ -1,0 +1,38 @@
+# Ignore .fetch files in case you like to edit your project deps locally.
+/.fetch
+
+# If the VM crashes, it generates a dump, let's ignore it too.
+erl_crash.dump
+
+# Ignore package tarball (built via "mix hex.build").
+linda-*.tar
+
+# Temporary files, for example, from tests.
+/tmp/
+
+# Manually backedup files
+/bak/
+
+# Ignore compiled files and build artifacts
+_build/
+deps/
+*.ez
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore editor-specific files (optional)
+.vscode/
+.idea/
+*.swp
+
+# Ignore OS-specific files (optional)
+.DS_Store
+Thumbs.db
+
+# Ignore test coverage reports (optional)
+/cover/
+
+# Ignore documentation build artifacts (optional)
+/doc/
