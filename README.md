@@ -22,7 +22,7 @@ be found at <https://hexdocs.pm/linda>.
 # What follows should be considered an abstract spec
 Abstract Implementation Spec should be considered a *roadmap*
 
-```
+
 # Extended Linda Coordination Language Specification
 
 ## 1. Tuple Space Model
@@ -166,4 +166,4 @@ coll_rd([("resource", "free", *)], NOT_ALL_ABSENT)
 - **Remove Tuple `t`**:
   - Update TS: \( TS' = TS \setminus \{t\} \)
   - Notify operations subscribed to `t`'s "remove" event.
-```
+
